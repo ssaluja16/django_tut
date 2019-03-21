@@ -4,15 +4,19 @@
     </head>
     <body>
         <div>
+            {{  posts }}
+        </div>
+        <div>
             <h1><a href="/">Django Blog</a></h1>
         </div>
-
+        {% for post in posts %}
         <div>
             <p>
-                date of publishing
+                published: {{post.published_date}}
             </p>
-            <h2> Heading 1</h2>
-            <p> Contents yaydaydyadyadyadyayd</p>
+            <h2><a href="">{{post.title}}</a></h2>
+            <p> {{post.text|linebreaksbr}}</p>
         </div>
+        {% endfor %}
     </body>
 </html>
