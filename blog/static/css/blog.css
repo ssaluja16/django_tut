@@ -1,0 +1,19 @@
+h1, h2{
+    color:#ff0000;
+    font-family: 'Lobster', cursive;
+}
+body {
+    margin-left: 15px;
+    padding-left:15px;
+}
+
+.header{
+    background-color: #C25100;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+
+.posts h1, h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
